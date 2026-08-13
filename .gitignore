@@ -1,0 +1,19 @@
+# Secrets — .env carries a live Azure OpenAI key. Never commit it.
+# .env.example is the committable template.
+.env
+.env.local
+*.env
+!.env.example
+
+# Raw judge responses. Large, and it is model output rather than source.
+# Delete it locally to force a fresh (paid) evaluation run.
+out/judge_cache.json
+
+# Authoring-side generator for the interpretation DOCX. The built .docx ships;
+# the script that produces it does not.
+build_interpretation_docx.py
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
