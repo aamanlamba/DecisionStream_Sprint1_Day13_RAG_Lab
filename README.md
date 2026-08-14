@@ -4,7 +4,7 @@
 
 Four chunking strategies × three retrieval modes × re-ranking × query
 decomposition, scored on four RAGAS metrics across twelve questions.
-
+Test RAGAS
 ---
 
 ## It runs offline
